@@ -15,7 +15,7 @@ export default function Blog() {
 
     useEffect(() => {
         const fetchBlog = async () => {
-            const response = await axios.get<Blog[]>(process.env.NEXT_PUBLIC_API_URL + '/blog' ?? "");
+            const response = await axios.get<Blog[]>(process.env.NEXT_PUBLIC_API_URL + '/BlogController_findAll' ?? "");
             setBlog(response.data);
         };
         fetchBlog();
