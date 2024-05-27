@@ -15,11 +15,11 @@ interface Props {
 
 export default function BlogCard({ id, title, genre }: Props) {
   const genreImage: Record<string, string> = {
-    develop: develop,
-    design: design,
-    lifestyle: lifestyle,
-    technology: technology,
-    programming: programming,
+    desarrollo: develop,
+    diseño: design,
+    "estilo de vida": lifestyle,
+    tecnologia: technology,
+    programacion: programming,
   };
 
   return (
