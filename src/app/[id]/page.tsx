@@ -24,7 +24,7 @@ export default function Blog({ params }: Props) {
     useEffect(() => {
         const fetchBlog = async () => {
             try {
-                const response = await axios.get<Blog>(process.env.NEXT_PUBLIC_API_URL + `blog/${params.id}` ?? "");
+                const response = await axios.get<Blog>(process.env.NEXT_PUBLIC_API_URL + 'blog/${params.id}'?? "");
                 setBlog(response.data);
             } catch (error) {
                 console.error(error);
