@@ -10,7 +10,7 @@ interface Blog {
 }
 
 export default async function Blog() {
-    const response = await axios.get<Blog[]>(parsedEnv.API_URL + '/blog')
+    const response = await axios.get<Blog[]>(parsedEnv.API_URL + `/blog`)
 
     return (
         <main className="flex flex-col items-center p-24 min-h-screen animate-fadeIn">
