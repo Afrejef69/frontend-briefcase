@@ -147,6 +147,10 @@ export default function Resume() {
               <p className="p-5">Curso de web.dev</p>
               <h4 lang="en">Learn Responsive Design</h4>
               <p className="p-5">Curso de web.dev</p>
+              <h4 lang="en">Start building with Next.js</h4>
+              <p className="p-5">Curso de nextjs.org</p>
+              <h4 lang="en">React Foundations</h4>
+              <p className="p-5">Curso de nextjs.org</p>
             </div>
           </div>
         </div>
