@@ -70,7 +70,7 @@ const develop = [
     value: "database",
   },
   {
-    name: "PostgreSQL",
+    name: "PostgresSQL",
     icon: postgres,
     value: "database",
   },
