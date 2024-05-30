@@ -93,7 +93,7 @@ h1.portafolio {
   display: none;
   flex-direction: column;
   margin-top: 80px;
-  position: absolute;
+  position: fixed;
   top: 100%;
 }
 
