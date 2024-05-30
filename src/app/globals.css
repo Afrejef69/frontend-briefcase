@@ -94,8 +94,6 @@ h1.portafolio {
   flex-direction: column;
   margin-top: 80px;
   position: absolute;
-  top: 100%;
-  z-index: 1000;
 }
 
 .menu-btn {
@@ -174,7 +172,7 @@ h1.portafolio {
   cursor: pointer;
   left: 0;
   padding: 1rem;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: auto;
   z-index: 999;
