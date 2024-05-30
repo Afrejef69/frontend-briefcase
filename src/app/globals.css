@@ -128,16 +128,13 @@ h1.portafolio {
 .menu li {
   background-color: rgba(var(--background-start-rgb), 0.9);
   backdrop-filter: blur(10px);
-  display: block;
+  display: flex;
   list-style-type: none;
   margin-bottom: 0.5rem;
   margin-left: 15px;
   margin-right: 0;
   margin-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 15px;
-  padding-right: 0;
-  padding-top: 0.5rem;
+  padding: 0.5rem 15px;
   text-decoration: none;
   width: auto;
 }

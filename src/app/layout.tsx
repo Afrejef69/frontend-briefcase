@@ -13,22 +13,22 @@ type Props = {
 
 const menuItems = [
   {
-      name: 'Home',
+      name: 'Inicio',
       imagen: home,
       url: '/'
   },
   {
-      name: 'Profile',
+      name: 'Perfil',
       imagen: profile,
       url: '/profile'
   },
   {
-      name: 'Projects',
+      name: 'Proyectos',
       imagen: projects,
       url: '/projects'
   },
   {
-      name: 'Education and Professional Skills',
+      name: 'Educación y habilidades profesionales',
       imagen: education,
       url: '/education-professional'
   },
